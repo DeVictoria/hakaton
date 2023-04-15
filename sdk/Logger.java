@@ -1,13 +1,22 @@
 package sdk;
 
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.net.Socket;
+import java.net.URL;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Logger {
+import javax.net.ssl.HttpsURLConnection;
+
+public class Logger implements AutoCloseable {
+
+    Socket socket;
 
     List<String[]> logs = new LinkedList<>();
 
-    public Logger() {
+    public Logger(String host, int port) throws IOException {
+        socket = new Socket(host, port);
     }
 
     public void log(String IdDevice, String TimeMili, String Location, String ModelDevice) {
@@ -18,8 +27,18 @@ public class Logger {
         log[3] = ModelDevice;
         logs.add(log);
         if(logs.size()>=100){
-            SenderToServer();
+            sendToServer();
         }
     }
+
+    public void sendToServer() {
+
+    }
+
+    @Override
+    public void close() throws IOException {
+
+    }
+
 
 }
