@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af09716d-e9b9-4617-a091-ccd41e6cf946" name="Changes" comment="Егор гей и Лёва">
-      <change afterPath="$PROJECT_DIR$/sdk/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdk/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdk/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/Logger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +31,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Itmo-hack-2023" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
